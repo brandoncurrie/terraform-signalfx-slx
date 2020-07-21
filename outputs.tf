@@ -5,5 +5,5 @@ output "slx_primary_dashboard" {
   value = "${module.dashboards.slx_primary_dashboard}"
 }
 output "slx_primary_dashboard_name" {
-  value = "${signalfx_dashboard.slx_primary_dashboard_name}"
+  value = "${module.dashboards.slx_primary_dashboard_name}"
 }
