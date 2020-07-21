@@ -5,3 +5,7 @@ output "slx_dashboard_group" {
 output "slx_primary_dashboard" {
   value = "${signalfx_dashboard.slx_primary_dashboard.id}"
 }
+
+output "slx_primary_dashboard_name" {
+  value = "${signalfx_dashboard.slx_primary_dashboard.name}"
+}
